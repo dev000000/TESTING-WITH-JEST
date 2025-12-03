@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // Relative imports - TrungQuanDev Note: Dành cho chạy test cần thêm ở đây nữa
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+    },
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}

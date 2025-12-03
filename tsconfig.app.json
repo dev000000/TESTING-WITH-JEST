@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    // Relative imports - TrungQuanDev Note: Dành cho chạy app
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+    },
+    // Cần config types ở đây để sử dụng được các các custom matchers của "@testing-library/jest-dom"...vv
+    "types": ["jest", "@testing-library/jest-dom"],
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+  },
+  // TrungQuanDev: Cần thêm "jest.setup.ts" ở đây để file đó có thể sử dụng các hàm của jest
+  "include": ["src", "jest.setup.ts"]
+}
