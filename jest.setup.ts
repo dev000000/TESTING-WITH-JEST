@@ -1,4 +1,3 @@
-// Author: TrungQuanDev: https://youtube.com/@trungquandev
 // Import thêm các custom matchers để tiện cho việc viết test, gọi file này ở jest.config.ts. Cũng như thêm cấu hình vào types trong tsconfig.app.json
 import '@testing-library/jest-dom'
 

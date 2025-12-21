@@ -1,4 +1,3 @@
-// Author: TrungQuanDev: https://youtube.com/@trungquandev
 import React, { useState, useEffect } from "react"
 import debounce from "lodash/debounce"
 
