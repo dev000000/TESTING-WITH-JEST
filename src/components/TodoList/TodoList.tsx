@@ -1,4 +1,3 @@
-// Author: TrungQuanDev: https://youtube.com/@trungquandev
 import React, { useEffect } from "react"
 
 // Data Type này chúng ta follow theo dummyjson.com (gọi api ở dưới)

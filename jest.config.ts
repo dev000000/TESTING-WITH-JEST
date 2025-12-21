@@ -1,4 +1,3 @@
-// Author: TrungQuanDev: https://youtube.com/@trungquandev
 import type { Config } from 'jest'
 
 const config: Config = {

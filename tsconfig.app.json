@@ -7,7 +7,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    // Relative imports - TrungQuanDev Note: Dành cho chạy app
+    // Relative imports - Dành cho chạy app
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
@@ -31,6 +31,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
   },
-  // TrungQuanDev: Cần thêm "jest.setup.ts" ở đây để file đó có thể sử dụng các hàm của jest
+  //  Cần thêm "jest.setup.ts" ở đây để file đó có thể sử dụng các hàm của jest
   "include": ["src", "jest.setup.ts"]
 }

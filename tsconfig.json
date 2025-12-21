@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    // Relative imports - TrungQuanDev Note: Dành cho chạy test cần thêm ở đây nữa
+    // Relative imports: Dành cho chạy test cần thêm ở đây nữa
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
