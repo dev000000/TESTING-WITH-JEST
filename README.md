@@ -1,43 +1,54 @@
-### Bộ code chuẩn để học Unit Test và React TypeScript trên kênh YouTube TrungQuanDev - Một Lập Trình Viên
+React + TypeScript + Jest – Unit Testing Practice
+📌 Project Overview
 
-- Playlist hướng dẫn chi tiết từ A-Z: updating...
+This project is built with React, TypeScript, and Jest, with the main purpose of practicing and improving unit testing skills in a React application.
 
-- Link Download Full Source Code hoàn chỉnh của cả bộ này và ủng hộ mình (Vui lòng đọc phần mô tả ở bất kỳ video nào trong Playlist trên để hiểu tại sao có 2 link bên dưới)
+The project focuses on writing unit tests for common real-world scenarios such as:
 
-- 🤝 Get Full Source Code for this Course here and support me 🍀
+React components with state and effects
 
-- 🎁 on Ko-fi: https://ko-fi.com/s/e7fe52b19f
+Form validation
 
-- 🎁 on Buy Me a Coffee: https://buymeacoffee.com/codetq/e/460696
+API calls and mocking
 
-### Hướng dẫn clone Repo code này về máy các bạn chuẩn nhất ở đây nhé:
+Debounce logic
 
-- Link: https://youtu.be/UuQ4XCI7M3k
+Custom React Hooks
 
-### Requirements - Thông tin của bộ Code Base này - Chuẩn các phiên bản dưới đây để bắt đầu học: (Semantic Versioning)
+This repository is intended for learning, experimentation, and building a solid foundation in frontend testing.
 
-```
-* nodejs >= v22.12.2
-* npm >= v10.5.0
-* yarn >= v1.22.19
+🎯 Objectives
 
-* Các gói thư viện trong file package.json (dependencies & devDependencies) đều đã fix đúng phiên bản để học rồi nhé. Bạn vui lòng không tự update nếu không có kinh nghiệm về Semantic Versioning cũng như không biết cách xử lý Bug phát sinh liên quan khó lường về sau. Nếu chưa hiểu về Semantic Versioning, vui lòng xem video này: https://youtu.be/lUfsTj45Uys?si=sgz0JPug9brELKY4
-```
+Practice writing unit tests using Jest and React Testing Library
 
-### About Me - Thông tin về mình:
+Understand how to test:
 
-Author: **Trungquandev - Một Lập Trình Viên** & **CodeTQ**
+Components
 
-Blog: https://trungquandev.com/
+Custom Hooks
 
-CV: https://cv.trungquandev.com/
+Asynchronous logic
 
-YouTube 01 (Trungquandev - Một Lập Trình Viên): https://www.youtube.com/@trungquandev
+User interactions
 
-YouTube 02 (CodeTQ): https://www.youtube.com/@code-tq
+Improve code quality and confidence when refactoring
 
-"Learning new everyday not the copycat of yesterday!"
+🛠️ Tech Stack
 
-"A bit of fragrance clings to the hand that gives flowers!"
+React
 
-Thanks for watching!
+TypeScript
+
+Jest
+
+React Testing Library
+
+⚙️ Environment Requirements
+
+Make sure your environment meets the following requirements before running the project:
+
+Node.js >= v22.12.2
+
+npm >= v10.5.0
+
+yarn >= v1.22.19

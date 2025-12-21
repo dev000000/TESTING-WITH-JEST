@@ -1,7 +1,4 @@
 /**
- * Author: TrungQuanDev: https://youtube.com/@trungquandev
- * ---
- * /**
  * Order an array of objects based on another array & return new Ordered Array
  * If the key is not found in the orderArray, it will be placed at the end of the returned array.
  * The originalArray will not be modified.
