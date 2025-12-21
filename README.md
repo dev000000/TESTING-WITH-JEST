@@ -1,54 +1,22 @@
-React + TypeScript + Jest – Unit Testing Practice
-📌 Project Overview
+# React + TypeScript + Jest Project
 
-This project is built with React, TypeScript, and Jest, with the main purpose of practicing and improving unit testing skills in a React application.
+## Description
 
-The project focuses on writing unit tests for common real-world scenarios such as:
+This is a React project built with TypeScript and Jest as the primary testing framework.
 
-React components with state and effects
+**Main Purpose**: Serve as a playground for practicing writing unit tests (and other types of tests) for React components, hooks, utility functions, etc., in an effective and professional manner.
 
-Form validation
+The project comes pre-configured with:
+- React 19+
+- TypeScript
+- Jest + React Testing Library (the modern recommended approach for testing React applications)
+- Basic setup for running tests easily
 
-API calls and mocking
+You can add sample components and write corresponding tests to practice.
 
-Debounce logic
+## System Requirements
 
-Custom React Hooks
+- **Node.js**: >= v22.12.2
+- **npm**: >= v10.5.0
+- **yarn** (optional): >= v1.22.19
 
-This repository is intended for learning, experimentation, and building a solid foundation in frontend testing.
-
-🎯 Objectives
-
-Practice writing unit tests using Jest and React Testing Library
-
-Understand how to test:
-
-Components
-
-Custom Hooks
-
-Asynchronous logic
-
-User interactions
-
-Improve code quality and confidence when refactoring
-
-🛠️ Tech Stack
-
-React
-
-TypeScript
-
-Jest
-
-React Testing Library
-
-⚙️ Environment Requirements
-
-Make sure your environment meets the following requirements before running the project:
-
-Node.js >= v22.12.2
-
-npm >= v10.5.0
-
-yarn >= v1.22.19
