@@ -1,7 +1,6 @@
 import { SignUpForm } from "~/components/SignUpForm/SignUpForm";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { get } from "lodash";
 
 describe("SignUpForm Component", () => {
   it("Should render default values in the sign-up form", () => {
